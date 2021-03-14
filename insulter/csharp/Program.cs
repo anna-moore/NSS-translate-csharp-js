@@ -1,11 +1,10 @@
 using System;
 using System.Collections.Generic;
 
-int getRandomInt()
-{
+// int getRandomInt()
+// {
 
-}
-
+// }
 
 List<string> insult = new List<string>()
 {
@@ -20,5 +19,5 @@ List<string> insult = new List<string>()
 
 foreach (string i in insult)
 {
-    Console.WriteLine($"You can eat {i}.");
+    Console.WriteLine($"{i}");
 }
